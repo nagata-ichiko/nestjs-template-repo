@@ -36,4 +36,5 @@ async function createSwaggerDocument(app: INestApplication) {
 
   SwaggerModule.setup('swagger', app, document);
 }
+
 bootstrap();
